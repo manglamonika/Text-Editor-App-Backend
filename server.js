@@ -9,7 +9,7 @@ const app = express();
 
 // ✅ Configure CORS to allow frontend requests
 const corsOptions = {
-  origin: "http://localhost:5173", // Change this if needed
+  origin: "https://text-editor-monika.netlify.app/", // Change this if needed
   methods: "GET,POST,PUT,DELETE",
   credentials: true, // Allow cookies and credentials
 };
